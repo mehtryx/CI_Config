@@ -1,0 +1,10 @@
+        <!-- Wordpress Tests (created for testing wordpress core, we only run some of these for sanity check) -->
+        <testsuite>
+            <file>replace/cron.php</file>
+            <file>replace/post.php</file>
+            <file>replace/query.php</file>
+            <file>replace/shortcode.php</file>
+            <!--file>replace/taxonomy.php</file-->
+            <file>replace/term.php</file>
+            <file>replace/user.php</file>
+        </testsuite>
