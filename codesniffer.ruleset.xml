@@ -10,5 +10,7 @@
 	<rule ref="WordPress">
 		<exclude name="WordPress.XSS.EscapeOutput" />
 		<exclude name="WordPress.WhiteSpace.ScopeIndent.Incorrect" />
+		<!-- Added for Smartphone team requirements -->
+		<exclude name="WordPress.Variables.GlobalVariables" />
 	</rule>
 </ruleset>
